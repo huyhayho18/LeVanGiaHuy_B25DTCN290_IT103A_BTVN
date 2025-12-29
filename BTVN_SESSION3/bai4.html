@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form>
+        <table>
+            <tr>
+                <td><label for="username">Họ và tên:</label></td>
+                <td><input type="text" id="username" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Ngày sinh:</label></td>
+                <td><input type="date" id="date" name="date"></td>
+            </tr>
+            <tr>
+                <td><label>Giới tính:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Nam
+                    <input type="radio" name="gender" value="female"> Nữ
+                </td>
+            </tr>
+            <tr>
+                <td><label for="IDcard">Số căn cước công dân:</label></td>
+                <td><input type="tel" pattern="[0-9]{12}" name="IDcard" id="IDcard"></td>
+            </tr>
+            <tr>
+                <td><label for="dateplace">Ngày cấp:</label></td>
+                <td><input type="date" id="dateplace" name="dateplace"></td>
+            </tr>
+            <tr>
+                <td><label for="plase">Nơi cấp</label></td>
+                <td><input type="text" id="plase" name="plase"></td>
+            </tr>
+            <tr>
+                <td><label for="phonenumber">Số điện thoại:</label></td>
+                <td><input type="tel" pattern="[0-9]{10}" name="phonenumber" id="phonenumber"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Địa chỉ thường trú:</label></td>
+                <td><textarea id="address" name="address" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="address">Địa chỉ tạm trú:</label></td>
+                <td><textarea id="address" name="address" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="notes">Loại căn cước công dân:</label></td>
+                <td><input type="radio" name="IDcardType" value="IDCard"> Căn cước công dân mới
+                    <input type="radio" name="IDcardType" value="oldIDCard"> Căn cước công dân cũ</td>
+            </tr>
+            <tr>
+                <td><label for="ethnicity">Dân tộc:</label></td>
+                <td><input type="text" id="ethnicity" name="ethnicity"></td>
+            </tr>
+            <tr>
+                <td><label for="religion">Tôn giáo:</label></td>
+                <td><input type="text" id="religion" name="religion"></td>
+            </tr>
+            <tr>
+                <td><label for="nationality">Quốc Tịch:</label></td>
+                <td><select id="nationality" name="nationality">
+                    <option value="Vietnam">Việt Nam</option>
+                    <option value="Other">Khác</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="nameparent">Họ tên cha/mẹ</label></td>
+                <td><input type="text" id="nameparent" name="nameparent"></td>
+            </tr>
+            <tr>
+                <td><label for="IDCardparent">Số CMND/CCCD của cha/mẹ:</label></td>
+                <td><input type="tel" pattern="[0-9]{12}" name="IDCardparent" id="IDCardparent"></td>
+            </tr>
+            <tr>
+                <td><label for="province">Tỉnh/Thành phố:</label></td>
+                <td><select id="province" name="province">
+                    <option value="DaNang">Chọn Tỉnh/Thành phố</option>
+                    <option value="Hanoi">Hà Nội</option>
+                    <option value="HoChiMinh">TP. Hồ Chí Minh</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><button>Gửi thông tin</button></td>
+        </table>
+    </form>
+</body>
+</html>

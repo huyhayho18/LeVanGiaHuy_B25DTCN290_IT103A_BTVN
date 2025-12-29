@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="username">Họ và tên:</label></td>
+                <td><input type="text" id="username" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Ngày sinh:</label></td>
+                <td><input type="date" id="date" name="date"></td>
+            </tr>
+            <tr>
+                <td><label>Giới tính:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Nam
+                    <input type="radio" name="gender" value="female"> Nữ
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phonenumber">Số điện thoại:</label></td>
+                <td><input type="tel" pattern="[0-9]{10}" name="phonenumber" id="phonenumber"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Địa chỉ:</label></td>
+                <td><textarea id="address" name="address" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="ethnicity">Vai trò trong nhóm:</label></td>
+                <td><select id="ethnicity" name="ethnicity">
+                    <option value="member">Thành viên</option>
+                    <option value="leader">Trưởng nhóm</option>
+                    <option value="deputy">Phó nhóm</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="hobbies">Sở thích</label></td>
+                <td><input type="text" id="hobbies" name="hobbies"></td>
+            </tr>
+            <tr>
+                <td><label for="skills">Kỹ năng</label></td>
+                <td><textarea id="skills" name="skills" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="free_time">Thời gian rảnh:</label></td>
+                <td><input type="radio" name="free_time" value="morning"> Sáng
+                    <input type="radio" name="free_time" value="afternoon"> Chiều
+                    <input type="radio" name="free_time" value="evening"> Tối
+                </td>
+            </tr>
+            <tr>
+                <td><label for="notes">Lý do tham gia nhóm</label></td>
+                <td><textarea id="notes" name="notes" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="color">Màu yêu thích:</label></td>
+                <td><input type="color" id="color" name="color"></td>
+            </tr>
+            <tr>
+                <td><label for="subscribe">Đăng ký nhận bản tin:</label></td>
+                <td><select id="subscribe" name="subscribe">
+                    <option value="yes">Có</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="birthplace">Nhận thông báo qua email:</label></td>
+                <td><select id="birthplace" name="birthplace">
+                    <option value="email">Email</option>
+                    <option value="sms">SMS</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><button>Đăng ký thành viên</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
