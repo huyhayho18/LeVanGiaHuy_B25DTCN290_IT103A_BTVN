@@ -1,0 +1,15 @@
+div{
+    text-align: center; 
+}
+h1{
+    font-size: medium;
+    color: #1e90ff;
+}
+button{
+    background-color: #00bfff;
+    color: white;
+}
+input, textarea {
+    outline: none;
+    border: 1px  solid #00bfff;
+}
