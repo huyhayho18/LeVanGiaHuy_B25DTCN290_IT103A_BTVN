@@ -1,0 +1,29 @@
+body {
+    font-family: cursive;
+    color: #92400e;
+    text-align: center;
+    background-color: #fff7ed;
+}
+h1 {
+    background-color: #fde68a;
+}
+div {
+    background-color: #fed7aa;
+}
+div a {
+    text-decoration: none;
+    color: #92400e;
+    font-weight: 600;
+}
+div a:hover {
+    background-color:#b45309;
+    font-weight: 700;
+}
+.Chucnang {
+    background-color: white;
+    text-align: left;
+}
+footer {
+    color: white;
+    background-color: #78350f;
+}
