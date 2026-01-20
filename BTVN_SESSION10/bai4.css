@@ -1,0 +1,10 @@
+body {
+    background-color: lightgrey;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
